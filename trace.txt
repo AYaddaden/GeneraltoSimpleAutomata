@@ -1,0 +1,40 @@
+
+Les donnees de l'automate sont:
+	L'alphabet: X*={a; b; &}
+	L'ensemble des etats est: Sg={S0; S1; S2}
+	L'ensemble des etats finaux est: Fg={S2}
+	L'ensemble des instructions est: IIg={(S0, &, S1); (S0, &, S2); (S1, a, S2); (S2, b, S0)}
+
+Les donnees de l'automate semi-generalise sont:
+	L'alphabet: Xsg={&; a; b}
+	L'ensemble des etats est: Ssg={S0; S1; S2}
+	L'ensemble des etats finaux est: Fsg={S2}
+	L'ensemble des instructions est: IIsg={(S0, &, S1); (S0, &, S2); (S1, a, S2); (S2, b, S0)}
+
+Les donnees de l'automate simple sont:
+	L'alphabet: Xs={a; b}
+	L'ensemble des etats est: Ss'={S0; S1; S2}
+	L'ensemble des etats finaux est: Fs={S2; S0}
+	L'ensemble des instructions est: IIs={(S1, a, S2); (S2, b, S0); (S0, a, S2); (S0, b, S0)}
+
+*****************************************************************
+
+Les donnees de l'automate sont:
+	L'alphabet: X*={a; b; &}
+	L'ensemble des etats est: Sg={S0; S1; S2}
+	L'ensemble des etats finaux est: Fg={S2}
+	L'ensemble des instructions est: IIg={(S0, &, S1); (S0, &, S2); (S1, a, S2); (S2, b, S0)}
+
+Les donnees de l'automate semi-generalise sont:
+	L'alphabet: Xsg={&; a; b}
+	L'ensemble des etats est: Ssg={S0; S1; S2}
+	L'ensemble des etats finaux est: Fsg={S2}
+	L'ensemble des instructions est: IIsg={(S0, &, S1); (S0, &, S2); (S1, a, S2); (S2, b, S0)}
+
+Les donnees de l'automate simple sont:
+	L'alphabet: Xs={a; b}
+	L'ensemble des etats est: Ss={S0; S1; S2}
+	L'ensemble des etats finaux est: Fs={S2; S0}
+	L'ensemble des instructions est: IIs={(S1, a, S2); (S2, b, S0); (S0, a, S2); (S0, b, S0)}
+
+*****************************************************************************************************
